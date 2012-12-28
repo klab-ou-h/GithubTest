@@ -10,7 +10,7 @@
 #import "cocos2d.h"
 
 @interface TestClassInBranch1 : CCNode {
-    
+  // Updated in branch1.
 }
 
 @end
