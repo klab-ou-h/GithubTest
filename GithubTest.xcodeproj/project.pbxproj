@@ -138,6 +138,7 @@
 		0A43AEFE168D2CA100C3654D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A43AEFD168D2CA100C3654D /* AppDelegate.m */; };
 		0A43AF01168D2CA100C3654D /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A43AF00168D2CA100C3654D /* HelloWorldLayer.m */; };
 		0A43AF04168D2CA100C3654D /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A43AF03168D2CA100C3654D /* IntroLayer.m */; };
+		0A43AF0C168D71C100C3654D /* TeseScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A43AF0B168D71C100C3654D /* TeseScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -413,6 +414,8 @@
 		0A43AF00168D2CA100C3654D /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		0A43AF02168D2CA100C3654D /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		0A43AF03168D2CA100C3654D /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		0A43AF0A168D71C100C3654D /* TeseScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeseScene.h; sourceTree = "<group>"; };
+		0A43AF0B168D71C100C3654D /* TeseScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeseScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -480,6 +483,8 @@
 				0A43AD76168D2C9F00C3654D /* Resources */,
 				0A43AD94168D2C9F00C3654D /* libs */,
 				0A43AEF8168D2CA100C3654D /* Supporting Files */,
+				0A43AF0A168D71C100C3654D /* TeseScene.h */,
+				0A43AF0B168D71C100C3654D /* TeseScene.m */,
 			);
 			path = GithubTest;
 			sourceTree = "<group>";
@@ -1040,6 +1045,7 @@
 				0A43AEFE168D2CA100C3654D /* AppDelegate.m in Sources */,
 				0A43AF01168D2CA100C3654D /* HelloWorldLayer.m in Sources */,
 				0A43AF04168D2CA100C3654D /* IntroLayer.m in Sources */,
+				0A43AF0C168D71C100C3654D /* TeseScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
