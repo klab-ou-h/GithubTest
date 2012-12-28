@@ -138,6 +138,7 @@
 		0A43AEFE168D2CA100C3654D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A43AEFD168D2CA100C3654D /* AppDelegate.m */; };
 		0A43AF01168D2CA100C3654D /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A43AF00168D2CA100C3654D /* HelloWorldLayer.m */; };
 		0A43AF04168D2CA100C3654D /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A43AF03168D2CA100C3654D /* IntroLayer.m */; };
+		0A43AF23168D727800C3654D /* TestClassInBranch1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A43AF22168D727800C3654D /* TestClassInBranch1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -413,6 +414,8 @@
 		0A43AF00168D2CA100C3654D /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		0A43AF02168D2CA100C3654D /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		0A43AF03168D2CA100C3654D /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		0A43AF21168D727800C3654D /* TestClassInBranch1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClassInBranch1.h; sourceTree = "<group>"; };
+		0A43AF22168D727800C3654D /* TestClassInBranch1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClassInBranch1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -480,6 +483,8 @@
 				0A43AD76168D2C9F00C3654D /* Resources */,
 				0A43AD94168D2C9F00C3654D /* libs */,
 				0A43AEF8168D2CA100C3654D /* Supporting Files */,
+				0A43AF21168D727800C3654D /* TestClassInBranch1.h */,
+				0A43AF22168D727800C3654D /* TestClassInBranch1.m */,
 			);
 			path = GithubTest;
 			sourceTree = "<group>";
@@ -1040,6 +1045,7 @@
 				0A43AEFE168D2CA100C3654D /* AppDelegate.m in Sources */,
 				0A43AF01168D2CA100C3654D /* HelloWorldLayer.m in Sources */,
 				0A43AF04168D2CA100C3654D /* IntroLayer.m in Sources */,
+				0A43AF23168D727800C3654D /* TestClassInBranch1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1143,6 +1149,7 @@
 				0A43AF09168D2CA200C3654D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
