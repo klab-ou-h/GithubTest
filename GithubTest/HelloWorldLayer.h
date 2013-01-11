@@ -15,11 +15,10 @@
 // HelloWorldLayer
 @interface HelloWorldLayer : CCLayer <GKAchievementViewControllerDelegate, GKLeaderboardViewControllerDelegate>
 {
-<<<<<<< HEAD
-=======
     // Insert a test comment.
     // This comment is added in GithubTestClone.
->>>>>>> 3f2793a... Add commnets.
+    // FIxed this bug. :))
+    // Test.
 }
 
 // returns a CCScene that contains the HelloWorldLayer as the only child
