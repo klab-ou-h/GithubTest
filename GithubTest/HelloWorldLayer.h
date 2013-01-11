@@ -15,6 +15,7 @@
 // HelloWorldLayer
 @interface HelloWorldLayer : CCLayer <GKAchievementViewControllerDelegate, GKLeaderboardViewControllerDelegate>
 {
+    // Insert a test comment.
 }
 
 // returns a CCScene that contains the HelloWorldLayer as the only child
