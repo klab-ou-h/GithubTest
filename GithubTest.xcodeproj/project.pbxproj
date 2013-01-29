@@ -140,6 +140,7 @@
 		0A43AF04168D2CA100C3654D /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A43AF03168D2CA100C3654D /* IntroLayer.m */; };
 		73D939A916B77C2500CF672C /* TESTClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D939A816B77C2400CF672C /* TESTClass.m */; };
 		73D939B116B77C5300CF672C /* TestInCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D939B016B77C5300CF672C /* TestInCopy.m */; };
+		73D93A3116B79FBB00CF672C /* TEST2Copy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D93A3016B79FBB00CF672C /* TEST2Copy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -419,6 +420,8 @@
 		73D939A816B77C2400CF672C /* TESTClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TESTClass.m; sourceTree = "<group>"; };
 		73D939AF16B77C5300CF672C /* TestInCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestInCopy.h; sourceTree = "<group>"; };
 		73D939B016B77C5300CF672C /* TestInCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestInCopy.m; sourceTree = "<group>"; };
+		73D93A2F16B79FBB00CF672C /* TEST2Copy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEST2Copy.h; sourceTree = "<group>"; };
+		73D93A3016B79FBB00CF672C /* TEST2Copy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEST2Copy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -444,6 +447,8 @@
 		0A43AD54168D2C9F00C3654D = {
 			isa = PBXGroup;
 			children = (
+				73D93A2F16B79FBB00CF672C /* TEST2Copy.h */,
+				73D93A3016B79FBB00CF672C /* TEST2Copy.m */,
 				73D939AF16B77C5300CF672C /* TestInCopy.h */,
 				73D939B016B77C5300CF672C /* TestInCopy.m */,
 				73D939A716B77C2400CF672C /* TESTClass.h */,
@@ -1052,6 +1057,7 @@
 				0A43AF04168D2CA100C3654D /* IntroLayer.m in Sources */,
 				73D939B116B77C5300CF672C /* TestInCopy.m in Sources */,
 				73D939A916B77C2500CF672C /* TESTClass.m in Sources */,
+				73D93A3116B79FBB00CF672C /* TEST2Copy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1102,7 +1108,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: KLab INC. (ENT)";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
