@@ -138,6 +138,7 @@
 		0A43AEFE168D2CA100C3654D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A43AEFD168D2CA100C3654D /* AppDelegate.m */; };
 		0A43AF01168D2CA100C3654D /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A43AF00168D2CA100C3654D /* HelloWorldLayer.m */; };
 		0A43AF04168D2CA100C3654D /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A43AF03168D2CA100C3654D /* IntroLayer.m */; };
+		73D939B116B77C5300CF672C /* TestInCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D939B016B77C5300CF672C /* TestInCopy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -413,6 +414,8 @@
 		0A43AF00168D2CA100C3654D /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		0A43AF02168D2CA100C3654D /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		0A43AF03168D2CA100C3654D /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		73D939AF16B77C5300CF672C /* TestInCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestInCopy.h; sourceTree = "<group>"; };
+		73D939B016B77C5300CF672C /* TestInCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestInCopy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -438,6 +441,8 @@
 		0A43AD54168D2C9F00C3654D = {
 			isa = PBXGroup;
 			children = (
+				73D939AF16B77C5300CF672C /* TestInCopy.h */,
+				73D939B016B77C5300CF672C /* TestInCopy.m */,
 				0A43AD75168D2C9F00C3654D /* GithubTest */,
 				0A43AD62168D2C9F00C3654D /* Frameworks */,
 				0A43AD60168D2C9F00C3654D /* Products */,
@@ -1040,6 +1045,7 @@
 				0A43AEFE168D2CA100C3654D /* AppDelegate.m in Sources */,
 				0A43AF01168D2CA100C3654D /* HelloWorldLayer.m in Sources */,
 				0A43AF04168D2CA100C3654D /* IntroLayer.m in Sources */,
+				73D939B116B77C5300CF672C /* TestInCopy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1090,7 +1096,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Kosuke Araki (LSJJLCLKZF)";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1105,7 +1110,6 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "435A4591-93CD-427A-A83D-8F79D34BC33F";
 				PROVISIONING_PROFILE = "";
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				WRAPPER_EXTENSION = app;
