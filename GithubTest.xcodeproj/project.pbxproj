@@ -139,6 +139,7 @@
 		0A43AF01168D2CA100C3654D /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A43AF00168D2CA100C3654D /* HelloWorldLayer.m */; };
 		0A43AF04168D2CA100C3654D /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A43AF03168D2CA100C3654D /* IntroLayer.m */; };
 		73D939B116B77C5300CF672C /* TestInCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D939B016B77C5300CF672C /* TestInCopy.m */; };
+		73D939A916B77C2500CF672C /* TESTClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D939A816B77C2400CF672C /* TESTClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -416,6 +417,8 @@
 		0A43AF03168D2CA100C3654D /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
 		73D939AF16B77C5300CF672C /* TestInCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestInCopy.h; sourceTree = "<group>"; };
 		73D939B016B77C5300CF672C /* TestInCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestInCopy.m; sourceTree = "<group>"; };
+		73D939A716B77C2400CF672C /* TESTClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TESTClass.h; sourceTree = "<group>"; };
+		73D939A816B77C2400CF672C /* TESTClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TESTClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -443,6 +446,8 @@
 			children = (
 				73D939AF16B77C5300CF672C /* TestInCopy.h */,
 				73D939B016B77C5300CF672C /* TestInCopy.m */,
+				73D939A716B77C2400CF672C /* TESTClass.h */,
+				73D939A816B77C2400CF672C /* TESTClass.m */,
 				0A43AD75168D2C9F00C3654D /* GithubTest */,
 				0A43AD62168D2C9F00C3654D /* Frameworks */,
 				0A43AD60168D2C9F00C3654D /* Products */,
@@ -1046,6 +1051,7 @@
 				0A43AF01168D2CA100C3654D /* HelloWorldLayer.m in Sources */,
 				0A43AF04168D2CA100C3654D /* IntroLayer.m in Sources */,
 				73D939B116B77C5300CF672C /* TestInCopy.m in Sources */,
+				73D939A916B77C2500CF672C /* TESTClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1097,6 +1103,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: KLab INC. (ENT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: KLab Global Pte. Ltd.";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
