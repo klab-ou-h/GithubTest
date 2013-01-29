@@ -1143,6 +1143,7 @@
 				0A43AF09168D2CA200C3654D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
