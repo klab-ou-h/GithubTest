@@ -141,6 +141,7 @@
 		73D939A916B77C2500CF672C /* TESTClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D939A816B77C2400CF672C /* TESTClass.m */; };
 		73D939B116B77C5300CF672C /* TestInCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D939B016B77C5300CF672C /* TestInCopy.m */; };
 		73D93A3116B79FBB00CF672C /* TEST2Copy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D93A3016B79FBB00CF672C /* TEST2Copy.m */; };
+		73D93A3916B79FEA00CF672C /* TEST2.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D93A3816B79FEA00CF672C /* TEST2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -422,6 +423,8 @@
 		73D939B016B77C5300CF672C /* TestInCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestInCopy.m; sourceTree = "<group>"; };
 		73D93A2F16B79FBB00CF672C /* TEST2Copy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEST2Copy.h; sourceTree = "<group>"; };
 		73D93A3016B79FBB00CF672C /* TEST2Copy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEST2Copy.m; sourceTree = "<group>"; };
+		73D93A3716B79FEA00CF672C /* TEST2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEST2.h; sourceTree = "<group>"; };
+		73D93A3816B79FEA00CF672C /* TEST2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEST2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -449,6 +452,8 @@
 			children = (
 				73D93A2F16B79FBB00CF672C /* TEST2Copy.h */,
 				73D93A3016B79FBB00CF672C /* TEST2Copy.m */,
+				73D93A3716B79FEA00CF672C /* TEST2.h */,
+				73D93A3816B79FEA00CF672C /* TEST2.m */,
 				73D939AF16B77C5300CF672C /* TestInCopy.h */,
 				73D939B016B77C5300CF672C /* TestInCopy.m */,
 				73D939A716B77C2400CF672C /* TESTClass.h */,
@@ -1058,6 +1063,7 @@
 				73D939B116B77C5300CF672C /* TestInCopy.m in Sources */,
 				73D939A916B77C2500CF672C /* TESTClass.m in Sources */,
 				73D93A3116B79FBB00CF672C /* TEST2Copy.m in Sources */,
+				73D93A3916B79FEA00CF672C /* TEST2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
