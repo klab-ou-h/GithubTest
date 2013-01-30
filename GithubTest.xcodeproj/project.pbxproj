@@ -138,7 +138,8 @@
 		0A43AEFE168D2CA100C3654D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A43AEFD168D2CA100C3654D /* AppDelegate.m */; };
 		0A43AF01168D2CA100C3654D /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A43AF00168D2CA100C3654D /* HelloWorldLayer.m */; };
 		0A43AF04168D2CA100C3654D /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A43AF03168D2CA100C3654D /* IntroLayer.m */; };
-		73D939A916B77C2500CF672C /* TESTClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D939A816B77C2400CF672C /* TESTClass.m */; };
+		73D8555016B8E31800768E29 /* gem_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 73D8554E16B8E31800768E29 /* gem_1.png */; };
+		73D8555116B8E31800768E29 /* gem_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 73D8554F16B8E31800768E29 /* gem_2.png */; };
 		73D939B116B77C5300CF672C /* TestInCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D939B016B77C5300CF672C /* TestInCopy.m */; };
 		73D93A3116B79FBB00CF672C /* TEST2Copy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D93A3016B79FBB00CF672C /* TEST2Copy.m */; };
 		73D93A3916B79FEA00CF672C /* TEST2.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D93A3816B79FEA00CF672C /* TEST2.m */; };
@@ -417,8 +418,8 @@
 		0A43AF00168D2CA100C3654D /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		0A43AF02168D2CA100C3654D /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		0A43AF03168D2CA100C3654D /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
-		73D939A716B77C2400CF672C /* TESTClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TESTClass.h; sourceTree = "<group>"; };
-		73D939A816B77C2400CF672C /* TESTClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TESTClass.m; sourceTree = "<group>"; };
+		73D8554E16B8E31800768E29 /* gem_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gem_1.png; sourceTree = "<group>"; };
+		73D8554F16B8E31800768E29 /* gem_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gem_2.png; sourceTree = "<group>"; };
 		73D939AF16B77C5300CF672C /* TestInCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestInCopy.h; sourceTree = "<group>"; };
 		73D939B016B77C5300CF672C /* TestInCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestInCopy.m; sourceTree = "<group>"; };
 		73D93A2F16B79FBB00CF672C /* TEST2Copy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEST2Copy.h; sourceTree = "<group>"; };
@@ -456,8 +457,6 @@
 				73D93A3816B79FEA00CF672C /* TEST2.m */,
 				73D939AF16B77C5300CF672C /* TestInCopy.h */,
 				73D939B016B77C5300CF672C /* TestInCopy.m */,
-				73D939A716B77C2400CF672C /* TESTClass.h */,
-				73D939A816B77C2400CF672C /* TESTClass.m */,
 				0A43AD75168D2C9F00C3654D /* GithubTest */,
 				0A43AD62168D2C9F00C3654D /* Frameworks */,
 				0A43AD60168D2C9F00C3654D /* Products */,
@@ -507,6 +506,8 @@
 		0A43AD76168D2C9F00C3654D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				73D8554E16B8E31800768E29 /* gem_1.png */,
+				73D8554F16B8E31800768E29 /* gem_2.png */,
 				0A43AD77168D2C9F00C3654D /* Default.png */,
 				0A43AD79168D2C9F00C3654D /* Default@2x.png */,
 				0A43AD7B168D2C9F00C3654D /* Default-568h@2x.png */,
@@ -943,6 +944,8 @@
 				0A43AD90168D2C9F00C3654D /* Icon@2x.png in Resources */,
 				0A43AD93168D2C9F00C3654D /* iTunesArtwork in Resources */,
 				0A43AEDC168D2CA100C3654D /* ChangeLog in Resources */,
+				73D8555016B8E31800768E29 /* gem_1.png in Resources */,
+				73D8555116B8E31800768E29 /* gem_2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1061,7 +1064,6 @@
 				0A43AF01168D2CA100C3654D /* HelloWorldLayer.m in Sources */,
 				0A43AF04168D2CA100C3654D /* IntroLayer.m in Sources */,
 				73D939B116B77C5300CF672C /* TestInCopy.m in Sources */,
-				73D939A916B77C2500CF672C /* TESTClass.m in Sources */,
 				73D93A3116B79FBB00CF672C /* TEST2Copy.m in Sources */,
 				73D93A3916B79FEA00CF672C /* TEST2.m in Sources */,
 			);
