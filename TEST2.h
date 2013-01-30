@@ -1,5 +1,5 @@
 //
-//  TESTClass.h
+//  TEST2.h
 //  GithubTest
 //
 //  Created by ou-h on 13/01/29.
@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TESTClass : NSObject
+@interface TEST2 : NSObject
 
 @end
